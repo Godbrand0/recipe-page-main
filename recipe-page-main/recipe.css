@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 100%);
+    font-family:  sans-serif;
+    font-weight: 200;
+}
+body{
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+.image-1{
+    width: 550px;
+    object-fit: cover;
+    height: 200px;
+    
+}
+.texts-1{
+    margin-top: 20px;
+    
+}
+h1{
+    margin: 20px auto;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.text-1{
+    color:  hsl(30, 10%, 34%);
+    font-size: 16px;
+    line-height: 20px;
+}
+.texts-2{
+    padding: 20px 40px;
+    margin: 30px auto;
+    background:  hsl(30, 54%, 90%);
+    border-radius: 10px;
+}
+h2{
+    margin-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+}
+ul{
+    margin-left: 20px;
+    
+}
+li{
+    padding-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+li::marker{
+    color:  hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+b{
+  margin-left: 20px;  
+}
+hr{
+    margin: 30px auto;
+}
+ol{
+    margin-left: 20px;
+}
+tr, td{
+  margin: 20px 10px;
+  border-bottom: 1px solid ;
+  padding-bottom: 15px;
+}
+
+.tab2{
+    
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+   
+}
+.text-4{
+    color: hsl(30, 10%, 34%);
+}
+.tab1{
+    color:  hsl(30, 10%, 34%);
+    
+}
+table{
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 395px;
+        
+    }
+    .image-1{
+        width: 395px;
+        margin: -30px;
+        margin-bottom: 30px;
+    }
+    body{
+        padding: 0;
+    }
+}
